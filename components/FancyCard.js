@@ -14,7 +14,9 @@ export default function FancyCard() {
                 <View style={styles.cardBody}>
                     <Text style={styles.cardTitle}>Maparachichi</Text>
                     <Text style={styles.cardLabel}>Mbeya city.</Text>
-                    <Text style={styles.cardLabel}>Mbeya city.</Text>
+                    <Text style={styles.cardDescription}>Welcome to Mbeya city.</Text>
+                    <Text style={styles.cardFooter}>12 min away.</Text>
+
                 </View>
             </View>
         </View>
