@@ -25,16 +25,70 @@ export default function FancyCard() {
 
 const styles = StyleSheet.create({
     headingText: {
+        fontSize: 24,
+        fontWeight: 'bold',
+        paddingHorizontal: 8,
 
     },
 
-    card: {},
+    card: {
+        width: 350,
+        height: 360,
+        borderRadius: 6,
+        marginVertical: 12,
+        marginHorizontal: 16,
+    },
 
-    cardElevated: {},
+    cardElevated: {
+        backgroundColor: '#FFFFFF',
+        elevation: 3,
+        shadowOffset: {
+            width: 1,
+            height: 1,
+        }
+    },
 
     cardImage: {
-        height: 100
+        height: 100,
+        marginBottom: 8,
+        borderTopLeftRadius: 6,
+        borderTopRightRadius: 6,
+
+
     },
 
-    cardBody: {}
+    cardBody: {
+        flex: 1,
+        flexGrow: 1,
+        paddingHorizontal: 12,
+
+    },
+    cardTitle: {
+        color: '#000000',
+        fontSize: 22,
+        fontWeight: 'bold',
+        marginBottom: 6,
+
+    },
+    cardLabel: {
+        color: '#000000',
+        fontSize: 14,
+        marginBottom: 6,
+
+
+    },
+    cardDescription: {
+        color: '#000000',
+        fontSize: 12,
+        marginBottom: 12,
+        flexShrink: 1,
+        marginTop: 6,
+
+    },
+    cardFooter: {
+        color: '#000000',
+    }
+
+
+
 })
