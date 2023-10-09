@@ -7,7 +7,7 @@ export default function FancyCard() {
             <Text style={styles.headingText}>Trending places</Text>
             <View style={[styles.card, styles.cardElevated]}>
                 <Image
-                    source={require('./para.jpg')}
+                    source={{ uri: 'asset:/para.jpg' }}
                     style={styles.cardImage}
                 />
 
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
         color: '#000000',
         fontSize: 22,
         fontWeight: 'bold',
-        marginBottom: 6,
+        marginBottom: 4,
 
     },
     cardLabel: {
