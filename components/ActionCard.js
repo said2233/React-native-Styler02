@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     headerText: {
         color: '#000',
         fontSize: 16,
-        fontWeight: 600,
+        fontWeight: '600',
     },
 
     cardImage: {

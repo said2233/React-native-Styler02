@@ -7,7 +7,7 @@ export default function FancyCard() {
             <Text style={styles.headingText}>Trending places</Text>
             <View style={[styles.card, styles.cardElevated]}>
                 <Image
-                    source={{ uri: 'asset:/para.jpg' }}
+                    source={{ uri: 'asset:/icon.png' }}
                     style={styles.cardImage}
                 />
 
