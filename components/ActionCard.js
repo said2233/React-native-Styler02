@@ -16,7 +16,7 @@ export default function ActionCard() {
                     </Text>
                 </View>
                 <Image
-                    source={{ uri: 'asset:/para.jpg' }} style={styles.cardImage}
+                    source={require('./assets/icon.png')} style={styles.cardImage}
                 />
 
                 <View style={styles.bodyContainer}>
